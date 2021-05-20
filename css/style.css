@@ -1,0 +1,93 @@
+html{
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    background: linear-gradient(#263238,#B0BEC5);
+    max-width: 100%;
+  }
+  #title{
+      text-align: center;
+      font-weight: bold;
+      color: #000000;
+      margin-top: 50px;
+      max-width: 100%;
+  }
+  #description{
+      text-align: center;
+      font-style: inherit;
+      font-size: 18px;
+      margin-bottom: 30px;
+      max-width: 100%;
+  }
+  label {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 10px;
+    max-width: 100%;
+
+  }
+  .survey-form-labels,
+  .additional-comments-label-text,
+  #dropdown{
+    padding: 10px;
+    background:linear-gradient(#ECEFF1,#B0BEC5);
+    border-radius: 8px;
+    width: 500px;
+    max-width: 100%;
+  }
+  #gender-label,
+  #sexualities-type-label{
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      max-width: 100%;
+  }
+
+  input, textarea, select {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+    max-width: 100%;
+  }
+  #additional-comments-label{
+      margin-top: 15px;
+      max-width: 100%;
+  }
+
+  form {
+    padding: 40px;
+    background: linear-gradient(#607D8B,#263238);
+    width: 600px;
+    border-radius: 8px;
+    margin-left: 60px;
+    max-width: 100%;
+  }
+  #button-area {
+    float: left;
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+
+  }
+  #submit{
+      width: 200px;
+      background: linear-gradient(#ECEFF1, #000);
+      display: inline-block;
+      text-align: center;
+      font-size: 16px;
+      padding: 10px 25px;
+      border-radius: 8px;
+      border: 2px solid ;
+      transition-duration: 0.4s;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 70px;
+      margin-left: 180px;
+      max-width: 100%;
+  }
+  #submit:hover {
+    color: white;
+  }

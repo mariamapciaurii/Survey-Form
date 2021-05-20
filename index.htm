@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      This is a survey where you can tell us about you sexualities.
+    </p>
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input class="survey-form-labels" type="text" name="name" id="name" required placeholder="Enter Your Name"><br>
+
+      <label id="email-label">Email:</label>
+      <input class="survey-form-labels" type="email" name="email" id="email" required placeholder="Enter Your Email"><br>
+
+      <label id="number-label">Your Age:(optional)</label>
+      <input class="survey-form-labels"  type="number" name="number" id="number" min="18" max="100" required placeholder="Enter Your age"><br>
+
+
+      <label id="sexual-orientation">Sexual Orientation:</label>
+      <select id="dropdown" name="sexualities">
+        <option class="sexual-orientation" value="Heterosexual">Heterosexual</option>
+        <option  class="sexual-orientation"value="Homosexual">Homosexual</option>
+        <option  class="sexual-orientation"value="Bisexual">Bisexual</option>
+        <option class="sexual-orientation" value="other">Other</option>
+      </select>
+
+      <label id="additional-comments-label">Additional Comments:</label>
+      <textarea  class="additional-comments-label-text" placeholder="Additional Comments"></textarea><br>
+
+      <div id="button-area">
+        <label id="gender-label">Gender:</label>
+        <input type="radio" class="radio-inline" name="gender" value="male"> Male<br>
+        <input type="radio" class="radio-inline" name="gender" value="female"> Female<br>
+        <input type="radio" class="radio-inline" name="gender" value="other"> Other
+      </div>
+      <div id="button-area">
+        <label id="sexualities-type-label">Styles of sexualities</label>
+        <input class="sexualities-type" type="checkbox" name="vehicle1" value="Autoromantic"> Autoromantic<br>
+        <input class="sexualitiest-type" type="checkbox" name="vehicle2" value="Androsexual"> Androsexual<br>
+        <input class="sexualities-type"type="checkbox" name="vehicle3" value="Bicurious" checked> Bicurious<br>
+      </div>
+
+      <input type="submit" id="submit">
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
